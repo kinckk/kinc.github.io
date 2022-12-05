@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capybara</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/aos.css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fa-solid fa-caret-up"></i></button>
+    <section class="about is-info">
+        <div class="hero-head">
+            <nav class="navbar is-warning">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="./index.html">
+                            <img src="./images/logo.png" alt="Logo">
+                        </a>
+                        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                          <span aria-hidden="true"></span>
+                          <span aria-hidden="true"></span>
+                          <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div class="navbar-menu" id="navMenu">
+                      <div class="navbar-start">
+                          <a class="navbar-item" href="./about.html">About</a>
+                          <a class="navbar-item" href="./friendliest.html">Friendliest</a>
+                          <a class="navbar-item" href="./meet.html">Meet</a>
+                          <a class="navbar-item" href="./event.html">Event</a>
+                          <a class="navbar-item" href="./quiz.html">Quiz</a>
+                          <a class="navbar-item" href="./faq.html">FAQ</a>
+                          <a class="navbar-item" href="./photo.html">Photo</a>
+                          <a class="navbar-item" href="./contact.html">Contact</a>
+                      </div>                
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="about section">
+            <div class="container main">
+                <div class="mb-6 pb-3 columns is-multiline animate__animated animate__fadeIn">
+                    <div class="column is-12 mx-auto has-text-centered ">
+                        <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">About Capybara</h2>
+                        <p class="subtitle has-text-grey mb-5">The capybara is a semiaquatic mammal and the world's largest rodent.</p>
+                    </div>
+                </div>
+                <div class="columns is-multiline" style="padding: 0 10%;">
+                    <div class="column is-12 is-4-desktop animate__animated animate__fadeInLeft">
+                        <div class="mb-6 is-flex">
+                            <span><i class="fa-solid fa-paw"></i></span>
+                            <div class="ml-3">
+                                <h4 class="is-size-4 has-text-weight-bold mb-2">Binomial name</h4>
+                                <p class="subtitle has-text-grey">Hydrochoerus hydrochaeris</p>
+                            </div>
+                            </div>
+                        <div class="mb-6 is-flex">
+                        <span><i class="fa-solid fa-earth-americas"></i></span>
+                        <div class="ml-3">
+                            <h4 class="is-size-4 has-text-weight-bold mb-2">Distribution</h4>
+                            <p class="subtitle has-text-grey">South America</p>
+                        </div>
+                        </div>
+                        <div class="mb-6 is-flex">
+                            <span><i class="fa-solid fa-utensils"></i></span>
+                            <div class="ml-3">
+                                <h4 class="is-size-4 has-text-weight-bold mb-2">Diet</h4>
+                                <p class="subtitle has-text-grey">Grass, leaves, fruit, seeds, bark, etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-block-desktop animate__animated animate__fadeIn animate__slow" style="margin-left:-5%;">
+                        <img class="mx-auto mt-0-widescreen is-block image" src="./images/about_capybara.png"></div>
+                    <div class="column is-12 is-4-desktop animate__animated animate__fadeInRight">
+                        <div class="mb-6 is-flex">
+                            <span><i class="fa-solid fa-ruler"></i></span>
+                            <div class="ml-3">
+                                <h4 class="is-size-4 has-text-weight-bold mb-2">Length</h4>
+                                <p class="subtitle has-text-grey">110-130 cm</p>
+                            </div>
+                        </div>
+                    <div class="mb-6 is-flex">
+                    <span><i class="fa-solid fa-weight-scale"></i></span>
+                    <div class="ml-3">
+                        <h4 class="is-size-4 has-text-weight-bold mb-2">Weight</h4>
+                        <p class="subtitle has-text-grey">40-50 kg</p>
+                    </div>
+                    </div>
+                    <div class="mb-6 is-flex">
+                        <span><i class="fa-solid fa-eye"></i></span>
+                        <div class="ml-3">
+                            <h4 class="is-size-4 has-text-weight-bold mb-2">Body</h4>
+                            <p class="subtitle has-text-grey">Covered with stiff brown hair, no tail and short limbs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns mb-6 mt-6" data-aos="fade-right" data-aos-duration="800" data-aos-offset="300">
+                    <div class="column is-6"><p>Capybara is very large and fat like a pig, but it is actually a member of the mouse family.
+                        Rats are classified as rodents, and among them, they are the largest rats that currently exist on earth. </p><p>They live in grasslands and marshes along river banks from Panama in South America to northeastern Argentina.</p></div>
+                    <div class="column">
+                        <img src="./images/about_1.gif" width="80%">
+                    </div>
+                </div>
+                <div class="columns mb-6" data-aos="fade-left" data-aos-duration="800" data-aos-offset="300">
+                    <div class="column"><img src="./images/about_2.jpg"></div>
+                    <div class="column is-7">
+                        <p>
+                            They spend the day in the shade of bushes or swimming in water to avoid the heat. Unlike other rodents, capybaras do not build burrows. He sleeps comfortably in a naturally formed depression in the ground with grass and leaves. Then, in the evening when the heat subsides, I eat again and sleep slowly at night.
+                        </p>
+                        <p>
+                        In contrast to wild capybaras, zoo capybaras do not have enemies, so their lives are centered around feeding time. Many zoos feed the capybaras in the morning right after the park opens, so if you go to see the capybara right after the park opens, you will already be nervous.</p>
+                    </div>
+                </div>
+                <div class="columns mb-6" data-aos="fade-right" data-aos-duration="800" data-aos-offset="300">
+                    <div class="column is-7">
+                        <p>Capybaras bask in the sun until evening after eating. And just before the park closes, we will start activities again if we are hungry. So when you usually go to the zoo to see capybaras, you get the impression that they are motionless and lazy to see them boating or napping.</p>
+                        <p>Therefore, ponds in capybara farms are always a subtle color. However, there seems to be an exception at the zoo to the basics written here. On cold days, they secretly decide to use the edge of the breeding hut as a toilet, and they mistake a puddle for a swamp after it rains.</p>
+                    </div>
+                    <div class="column"><img src="./images/about_3.jpg"></div>
+                </div>
+                <div class="columns mb-6" data-aos="fade-left" data-aos-duration="800" data-aos-offset="300">
+                    <div class="column">
+                        <img src="./images/about_4.jpg" width="80%">
+                    </div>
+                    <div class="column is-7">
+                        <p>It may be less relevant in a zoo breeding state where there are no enemies.</p>
+                        <p>Capybaras live in groups of 10 to 20 animals on average. A strong male at the center forms a family with several females and their offspring.</p>
+                        <p>During the dry season, many groups live in lakes and marshes where there is still water, so the group may temporarily exceed 100 animals, but when the rainy season comes again, large groups disperse return to their original small group life.</p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <footer class="section">
+    <div class="container">
+    <div class="columns">
+        <div class="column is-9">
+            <div class="pb-2 is-flex is-flex-wrap-wrap is-justify-content-between is-align-items-center">
+                <div class="mr-auto mb-2">
+                  <a class="is-inline-block" href="#" style="margin-right: 100px;">
+                    <img class="image" src="./images/logo.png" alt="" width="120px"></a>
+                </div>
+              </div>
+        </div>
+        <div class="column">
+            <a href="./contact.html" class="link">CONTACT US</a>
+            <a href="./sitemap.html" class="link">SITE MAP</a>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column is-12">
+            <div style="border-top: 1px solid #dee2e6;"></div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column is-9">
+            <p class="copyright">©2022 Cheung Ka Kin. All rights reserved.</p>
+        </div>
+        <div class="column">
+            <a class="is-inline-block" href="https://www.youtube.com/user/biopark" target="_blank" style="margin-right: 10px;">
+            <img class="image" src="./images/youtube.svg" alt="" width="33px"></a>
+            <a class="is-inline-block" href="https://twitter.com/ngsbiopark" target="_blank" style="margin-right: 10px;">
+            <img class="image" src="./images/twitter.svg" alt="" width="28px"></a>
+            <a class="is-inline-block" href="https://www.facebook.com/ngsbiopark/" target="_blank" style="margin-right: 10px;">
+            <img class="image" src="./images/facebook.svg" alt="" width="24px"></a>
+        </div>
+    </div>
+    </div>
+</footer>
+    <script async type="text/javascript" src="./js/bulma.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("backToTopBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity= 1;
+          } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity= 0;
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto+Mono:wght@100&display=swap');
+
+html,body {
+  font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  height: 100vh;
+}
+p{
+  padding-bottom: 0.6em;
+}
+.index.hero.is-info {
+  /* background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://unsplash.it/1200/900?random') no-repeat center center fixed; */
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url('../images/MzcyMDIxMTExMzIzMDk1NDc1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hero .subtitle {
+  padding: 3rem 0;
+  line-height: 1.5;
+}
+
+
+.about i{
+  font-size: 2em;
+  margin-top: 0.1em;
+}
+.about table{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 160%;
+}
+.about table tr{
+  border-bottom: 1px solid #000;
+}
+.about .cat{
+  width: 10em;
+  text-align: center;
+  background-color: #ffcc9c;
+}
+.about .main img{
+  margin: 14px 16px 0 0;
+}
+.event .source{
+  margin-top: 4em;
+  font-size: 0.6em;
+  border-top: 1px solid #000;
+}
+.map {
+  position: relative;
+  display: inline-block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.map img {
+  max-height:80vh;
+  display: block;
+}
+.map-box {
+  width:8%;
+  height:8%;
+  background-image:   url(../images/map-pin-red.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0),;
+}
+.map-box:hover > .map-pin-text {
+  display: block;
+}
+.map-pin-text {
+  position: absolute;
+  z-index:9999;
+  top:50%;
+  transform:translateY(-50%);
+  left:75%;
+  white-space:nowrap;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.4em 1em;
+  color:#000;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0.2em;
+}
+.map-pin-text h3 {
+  /* background-color:#fff; */
+  color:rgb(182, 63, 19);
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+
+.accordion {
+  background-color: #eee;
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active{
+  background-color: #f6b502;
+}
+.accordion:hover {
+  background-color: #ffda74;
+}
+.active:hover{
+  background-color: #f6b502;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.panel p{
+  padding: 12px 18px;
+}
+
+
+.capy_quiz .question{
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.capy_quiz .answers {
+  margin-bottom: 20px;
+}
+.capy_quiz .option{
+  margin-right: 20px;
+  font-weight: bold;
+}
+.capy_quiz input{
+  margin-right: 6px;
+  margin-left: 30px;
+}
+.capy_quiz #results{
+  margin-top: 20px;
+  font-size: 26px;
+  color: #00b120;
+}
+.capy_quiz #submit{
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #297;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.capy_quiz #submit:hover{
+  background-color: #3a8;
+}
+
+.sitemap ul li{
+  line-height: 200%;
+}
+.sitemap a{
+  color: #808080;
+  font-weight: bold;
+}
+.sitemap a:hover{
+  color: #fcdf00;
+}
+
+#backToTopBtn {
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  color: #ff9d00;
+  background-color: #ededed;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+#backToTopBtn:hover {
+  color: #ff8400;
+  background-color: #e1e1e1;
+  transition-duration: 0.2s;
+}
+footer{
+  background-color: #cbcbcb;
+}
+footer .link{
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 4em;
+  color: #808080;
+}
+footer .link:hover{
+  color: #fcdf00;
+}
+
+footer .copyright{
+  font-size: 0.5rem;
+  color: rgb(111, 111, 111);
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capybara</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+</head>
+
+<body>
+  <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fa-solid fa-caret-up"></i></button>
+    <section class="event is-info">
+        <div class="hero-head">
+            <nav class="navbar is-warning">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="./index.html">
+                            <img src="./images/logo.png" alt="Logo">
+                        </a>
+                        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                          <span aria-hidden="true"></span>
+                          <span aria-hidden="true"></span>
+                          <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div class="navbar-menu" id="navMenu">
+                      <div class="navbar-start">
+                          <a class="navbar-item" href="./about.html">About</a>
+                          <a class="navbar-item" href="./friendliest.html">Friendliest</a>
+                          <a class="navbar-item" href="./meet.html">Meet</a>
+                          <a class="navbar-item" href="./event.html">Event</a>
+                          <a class="navbar-item" href="./quiz.html">Quiz</a>
+                          <a class="navbar-item" href="./faq.html">FAQ</a>
+                          <a class="navbar-item" href="./photo.html">Photo</a>
+                          <a class="navbar-item" href="./contact.html">Contact</a>
+                      </div>                
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="event container pt-2 pb-2">
+        <div class="container main">
+          <div class="mb-6 pb-3 columns is-multiline is-multiline animate__animated animate__fadeIn">
+            <div class="column is-12 mx-auto">
+                <h2 class="mb-1 mt-6 is-size-1 is-size-3-mobile has-text-weight-bold">Event</h2>
+            </div>
+        </div>
+        <div class="columns features animate__animated animate__fadeIn">
+          <div class="column is-6">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="./images/event_1.webp" class="modal-button" data-target="modal-image2">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4>Capybara wins the “Long Bath Showdown” at 1 hour 58 minutes</h4>
+                  <p>Capybaras from five zoos nationwide compete for the length of time they can soak in the hot water, and the capybara from Ito City, Shizuoka Prefecture won the championship, gaining popularity among tourists.</p>
+                  <a class = "button is-primary modal-button" data-target="#modal-card1">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 modal-button" data-target="modal-card">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="./images/event_4.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4>Watermelon Day "Capybara Watermelon Eating Contest"</h4>
+                  <p>Capybaras representing the five zoo countries competed to see how long it took them to finish eating 500 grams of watermelon with the skin on. Izu Shaboten Zoological Park's "Ginnan", which was burning for revenge after finishing in second place last year, managed to finish in third place despite breaking its personal record.</p>
+                  <a class = "button is-primary modal-button" data-target="#modal-card2">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="modal-card1" class="modal modal-fx-fadeInScale modal-pos-bottom animate__animated animate__fadeIn animate__fast">
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="./images/event_1.webp" alt="butterfly">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h2>Capybara wins the “Long Bath Showdown” at 1 hour 58 minutes</h2>
+                  <p>Capybaras from five zoos nationwide compete for the length of time they can soak in the hot water, and the capybara from Ito City, Shizuoka Prefecture won the championship, gaining popularity among tourists.</p>
+                  <img src="./images/event_3.jpg" width="60%">
+                  <p>Ito City's "Izu Shaboten Zoological Park" uses baths to breed capybaras, and the 1-year-old female "Pol" loves baths the most in the park.</p>
+                  <p>On the 8th of this month, "Pol" competed with capybaras from zoos in Saitama Prefecture, Tochigi Prefecture, Nagasaki Prefecture, and Ishikawa Prefecture in the "long bath showdown" at each zoo.</p>
+                  <p>Last year I was second, but this year I enjoyed the hot water and won with a record of 1 hour 58 minutes 38 seconds, far ahead of the second place. It is the first time in seven years that the capybara of "Izu Shaboten Zoological Park" has won.</p>
+                  <p>Every year from winter to spring, the zoo shows a group of capybaras enjoying their baths. rice field.</p>
+                  <img src="./images/event_2.jpg" width="60%" align="right" style="margin:4px">
+                  <p>A woman in her 30s who visited from Kanagawa Prefecture said, "We also took a bath in the hot springs, but I feel that we are all connected to humans. I can't take a long bath for 1 hour and 58 minutes, so I thought it was amazing." I was.</p>
+                  <p>Mr. Yu Takiguchi, the keeper in charge, said, "Pol is a leisurely person who goes at her own pace, and she usually likes taking a bath. When she won the championship, she was honestly happy."</p>
+                  <div class="source">
+                    NHK News 19/1/2022 06:33<br>
+                    <a href="https://www3.nhk.or.jp/news/html/20220119/k10013437591000.html" target="_blank">カピバラが“長風呂対決” 優勝は1時間58分38秒 静岡 伊東</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+        <div id="modal-card2" class="modal modal-fx-fadeInScale modal-pos-bottom animate__animated animate__fadeIn animate__fast">
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="./images/event_4.jpg" alt="butterfly">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h2>Watermelon Day "Capybara Watermelon Eating Contest"</h2>
+                  <p>Capybaras representing the five zoo countries competed to see how long it took them to finish eating 500 grams of watermelon with the skin on. Izu Shaboten Zoological Park's "Ginnan", which was burning for revenge after finishing in second place last year, managed to finish in third place despite breaking its personal record.</p>
+                  <img src="./images/event_5.jpg" width="60%">
+                  <p>On July 27, 2022 (Wednesday) "Watermelon Day", Izu Shaboten Zoological Park, Nagasaki Bio Park, Saitama Prefecture Children's Zoological Park, Nasu Animal Kingdom and Ishikawa Zoo will collaborate on the 5 zoo country collaboration confrontation "Kapilympics No. The 7th Capybara's Watermelon Eating Contest" was held.</p>
+                  <img src="./images/event_6.jpg" width="60%" align="right" style="margin:4px">
+                  <p>At 8:30 in the morning, Izu "Ginnan" appeared as the top batter of 5 Sonokuni countries and beat last year's winning time of 2 minutes 35 seconds (Saitama "Kokone"). Next, at 11:00, Ishikawa “Asuka” took on the challenge and finished second with a record of 2 minutes and 55 seconds. Nasu "Koharu" appeared at 13:00, 8 minutes 48 seconds, and Nagasaki "Kona", which appeared at 13:30, recorded 2 minutes 26 seconds. "Loofah" appears from 00:00. He won the 7th Capybara Watermelon Eating Contest by taking 1st place in 2 minutes and 2 seconds. The winning capybara receives a gold medal, a certificate, and special products from other garden countries as a supplementary prize.</p>
+                  <img src="./images/event_7.jpg" width="60%"style="margin:4px">
+                  <div class="source">
+                    PR TIMES 27/7/2022 15:33<br>
+                    <a href="https://prtimes.jp/main/html/rd/p/000000073.000038159.html" target="_blank">7月27日はスイカの日 『カピリンピック★ 第７回カピバラのスイカ早食い競争』5園国コラボの熱き対決に決着が！</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+      </div>
+    </section>
+    <footer class="section">
+    <div class="container">
+    <div class="columns">
+        <div class="column is-9">
+            <div class="pb-2 is-flex is-flex-wrap-wrap is-justify-content-between is-align-items-center">
+                <div class="mr-auto mb-2">
+                  <a class="is-inline-block" href="#" style="margin-right: 100px;">
+                    <img class="image" src="./images/logo.png" alt="" width="120px"></a>
+                </div>
+              </div>
+        </div>
+        <div class="column">
+            <a href="./contact.html" class="link">CONTACT US</a>
+            <a href="./sitemap.html" class="link">SITE MAP</a>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column is-12">
+            <div style="border-top: 1px solid #dee2e6;"></div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column is-9">
+            <p class="copyright">©2022 Cheung Ka Kin. All rights reserved.</p>
+        </div>
+        <div class="column">
+            <a class="is-inline-block" href="https://www.youtube.com/user/biopark" target="_blank" style="margin-right: 10px;">
+            <img class="image" src="./images/youtube.svg" alt="" width="33px"></a>
+            <a class="is-inline-block" href="https://twitter.com/ngsbiopark" target="_blank" style="margin-right: 10px;">
+            <img class="image" src="./images/twitter.svg" alt="" width="28px"></a>
+            <a class="is-inline-block" href="https://www.facebook.com/ngsbiopark/" target="_blank" style="margin-right: 10px;">
+            <img class="image" src="./images/facebook.svg" alt="" width="24px"></a>
+        </div>
+    </div>
+    </div>
+</footer>
+    <!-- <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script> -->
+    <script async type="text/javascript" src="./js/bulma.js"></script>
+    <script>
+      $(".modal-button").click(function() {
+      var target = $(this).data("target");
+      $("html").addClass("is-clipped");
+      $(target).addClass("is-active");
+      });
+      
+      $(".modal-close").click(function() {
+      $("html").removeClass("is-clipped");
+      $(this).parent().removeClass("is-active");
+      });
+    
+      // Get the button
+      let mybutton = document.getElementById("backToTopBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.visibility = "visible";
+          mybutton.style.opacity= 1;
+        } else {
+          mybutton.style.visibility = "hidden";
+          mybutton.style.opacity= 0;
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+</body>
+</html>
